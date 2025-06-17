@@ -279,13 +279,31 @@ td {
 
 @media (max-width: 700px) {
     .container {
-        padding: 10px 2px;
+        padding: 18px 7vw !important;
+        box-sizing: border-box;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 100%;
     }
 
     th,
     td {
-        font-size: 13px;
-        padding: 8px 4px;
+        font-size: 11px;
+        padding: 7px 3px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+
+    thead td,
+    th {
+        max-width: 80px;
+        white-space: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
     }
 
     .student-info-row {
@@ -305,13 +323,13 @@ td {
     }
 
     .custom-dropdown-selected {
-        font-size: 14px;
-        padding: 8px 34px 8px 10px;
-        min-height: 36px;
+        font-size: 13px;
+        padding: 7px 28px 7px 8px;
+        min-height: 32px;
     }
 
     .custom-dropdown-option {
-        font-size: 14px;
-        padding: 10px 12px;
+        font-size: 13px;
+        padding: 8px 10px;
     }
 }
