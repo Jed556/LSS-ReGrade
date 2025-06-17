@@ -1,4 +1,4 @@
-# LSS Grade Printer
+# LSS ReGrade
 
 A modern, responsive web app for displaying student grade data exported from the Letran School System Portal, with animated transitions and custom dropdown selectors.
 
