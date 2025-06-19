@@ -24,11 +24,11 @@ A modern, responsive web app for displaying student grade data exported from the
 ## grades.json Format Example
 ```json
 {
-  "id": "202312345",
+  "id": "2004111",
   "firstname": "Jane",
-  "middlename": "R.",
+  "middlename": "Rat",
   "lastname": "Doe",
-  "course": "BS Computer Science",
+  "course": "Bachelor of Science in Course",
   "grades": {
     "1st": {
       "1": {
